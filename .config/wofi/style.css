@@ -1,0 +1,31 @@
+window {
+    font-size: 20px;
+    background-color: rgba(1, 2, 3, 0.9);
+}
+
+#input {
+    margin: -16px;
+}
+
+#inner-box {
+    margin: 8px;
+}
+
+#entry {
+    margin: 2px;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+#entry:selected {
+    background-color: rgba(16, 15, 15, 0.9);
+}
+
+#text {
+    margin: 5px;
+    color: rgba(143, 143, 143, 1.0);
+}
+
+#text:selected {
+    color: rgba(80, 250, 123, 0.8);
+}

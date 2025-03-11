@@ -1,0 +1,7 @@
+show = dmenu
+width = 323
+height = 147
+hide_scroll = true
+hide_search = true
+normal_window = true
+single_click = true

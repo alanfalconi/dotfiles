@@ -1,0 +1,7 @@
+[window]
+padding = { x = 4, y = 4 }
+opacity = 0.8
+[colors]
+transparent_background_colors = true
+  [colors.primary]
+    background = "#010203"

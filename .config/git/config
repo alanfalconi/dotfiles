@@ -1,0 +1,7 @@
+[user]
+	name = Alan Falconi
+	email = alanorbea@gmail.com
+[core]
+	editor = nvim
+[init]
+	defaultBranch = main
