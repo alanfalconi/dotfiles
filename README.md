@@ -9,28 +9,15 @@ Instructions at [Arch Linux Setup](https://gist.github.com/alanfalconi/a413020e9
 Managed with the Git bare repository method.\
 Instructions at https://www.atlassian.com/git/tutorials/dotfiles.
 
-## SSH Setup
-Instructions at [Generate SSH key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent?platform=linux), [Add SSH key to GitHub](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account?platform=linux) and [Test SSH connection](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/testing-your-ssh-connection?platform=linux).
-
-## Colemak-CAWS Layout Setup
-```bash
-git clone https://github.com/DreymaR/BigBagKbdTrixXKB
-cd BigBagKbdTrixXKB
-chmod +x install-dreymar-xmod.sh
-sudo ./install-dreymar-xmod.sh
-```
-
 ## Keyd Setup
 ```bash
+sudo pacman -S keyd
 sudo ln -s ~/.config/keyd/default.conf /etc/keyd/default.conf
-sudo keyd reload
+sudo systemctl enable --now keyd
 ```
 
-## Google Translate Extension Setup
-Go to `~/.config/google-chrome/Default/Extensions`.\
-Copy `cp` the extension directory to your desired path.\
-Modify the `manifest.json` to be recognized as a different extension.\
-Load unpacked from <ins>chrome://extensions/</ins>.
+## SSH Setup
+Instructions at [Generate SSH key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent?platform=linux), [Add SSH key to GitHub](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account?platform=linux) and [Test SSH connection](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/testing-your-ssh-connection?platform=linux).
 
 ## Packages
 > [!TIP]
