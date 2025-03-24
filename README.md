@@ -44,4 +44,4 @@ Instructions at [Generate SSH key](https://docs.github.com/en/authentication/con
 - spotify
 - spotx
 
-[Wallpaper](https://www.wallpaperflare.com/sea-night-ocean-waves-4k-5k-shore-wallpaper-untjc).
+[Wallpaper](https://www.wallpaperflare.com/sea-night-ocean-waves-4k-5k-shore-wallpaper-untjc)
