@@ -41,7 +41,6 @@ Instructions at [Generate SSH key](https://docs.github.com/en/authentication/con
 - wofi
 - google chrome
 - obsidian
-- anki
 - spotify
 - spotx
 

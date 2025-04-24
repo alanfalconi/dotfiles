@@ -1,6 +1,6 @@
 show = dmenu
 width = 323
-height = 191
+height = 147
 hide_scroll = true
 hide_search = true
 normal_window = true
